@@ -1,0 +1,19 @@
+{
+  "name": "Trumpet",
+  "version": "1.0.0",
+  "description": "This is the backend for the trumpet chat app",
+  "main": "server.js",
+  "author": "Selim Halac",
+  "dependencies": {
+    "async": "*",
+    "express": "*",
+    "mongodb": "*",
+    "socket.io": "*",
+    "mongoose": "*",
+    "bcrypt":"*",
+    "body-parser":"*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
