@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124C2AC94267D5AA432DB5EF /* Pods_Trumpet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2E9A78E724F4C65510CBB6 /* Pods_Trumpet.framework */; };
+		2E684733B3C732C07AB1DE70 /* Pods_TrumpetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633E7A8F545E885D2722CBE4 /* Pods_TrumpetUITests.framework */; };
+		6DF16DAB58C9343551A7ADD3 /* Pods_TrumpetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAB8FA266F5A0DBFFB6101E /* Pods_TrumpetTests.framework */; };
+		F41231831CDED24A0096B73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41231821CDED24A0096B73A /* AppDelegate.swift */; };
+		F41231851CDED24A0096B73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41231841CDED24A0096B73A /* ViewController.swift */; };
+		F41231881CDED24A0096B73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41231861CDED24A0096B73A /* Main.storyboard */; };
+		F412318A1CDED24A0096B73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41231891CDED24A0096B73A /* Assets.xcassets */; };
+		F412318D1CDED24A0096B73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F412318B1CDED24A0096B73A /* LaunchScreen.storyboard */; };
+		F41231981CDED24A0096B73A /* TrumpetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41231971CDED24A0096B73A /* TrumpetTests.swift */; };
+		F41231A31CDED24A0096B73A /* TrumpetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41231A21CDED24A0096B73A /* TrumpetUITests.swift */; };
+		F43B0EA01CE1CB40006BB4DC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B0E9F1CE1CB40006BB4DC /* Friend.swift */; };
+		F45436D91CF2B75B0098C951 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45436D81CF2B75B0098C951 /* SocketIOManager.swift */; };
+		F477D1581CEAF93C00D52AFD /* ChatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477D1571CEAF93C00D52AFD /* ChatListTableViewController.swift */; };
+		F477D15C1CEB4D6100D52AFD /* YouChatCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477D15B1CEB4D6100D52AFD /* YouChatCellTableViewCell.swift */; };
+		F477D15E1CECD1F400D52AFD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477D15D1CECD1F400D52AFD /* ChatViewController.swift */; };
+		F4BC7E2A1CFF51930034D920 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC7E291CFF51930034D920 /* SignUpController.swift */; };
+		F4BC7E2C1D0CF26F0034D920 /* AddFriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC7E2B1D0CF26F0034D920 /* AddFriendController.swift */; };
+		F4EEA5CB1D11646200DD2A58 /* AddUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EEA5CA1D11646200DD2A58 /* AddUserCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41231941CDED24A0096B73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41231771CDED24A0096B73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F412317E1CDED24A0096B73A;
+			remoteInfo = Trumpet;
+		};
+		F412319F1CDED24A0096B73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F41231771CDED24A0096B73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F412317E1CDED24A0096B73A;
+			remoteInfo = Trumpet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D108264288755BC0A371AFF /* Pods-TrumpetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetTests/Pods-TrumpetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		633E7A8F545E885D2722CBE4 /* Pods_TrumpetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD7A06CCEC87FA388054C80 /* Pods-Trumpet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumpet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trumpet/Pods-Trumpet.release.xcconfig"; sourceTree = "<group>"; };
+		CC2E9A78E724F4C65510CBB6 /* Pods_Trumpet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trumpet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0112B29FC957EC8FDB5A7B0 /* Pods-TrumpetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetUITests/Pods-TrumpetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E5398EB387FDD040FB11B4 /* Pods-TrumpetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetTests/Pods-TrumpetTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBAB8FA266F5A0DBFFB6101E /* Pods_TrumpetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1824FADA68C3ACE58A0820A /* Pods-TrumpetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrumpetUITests/Pods-TrumpetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F412317F1CDED24A0096B73A /* Trumpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trumpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41231821CDED24A0096B73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F41231841CDED24A0096B73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F41231871CDED24A0096B73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F41231891CDED24A0096B73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F412318C1CDED24A0096B73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F412318E1CDED24A0096B73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41231931CDED24A0096B73A /* TrumpetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41231971CDED24A0096B73A /* TrumpetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpetTests.swift; sourceTree = "<group>"; };
+		F41231991CDED24A0096B73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F412319E1CDED24A0096B73A /* TrumpetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41231A21CDED24A0096B73A /* TrumpetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpetUITests.swift; sourceTree = "<group>"; };
+		F41231A41CDED24A0096B73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43B0E9F1CE1CB40006BB4DC /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		F45436D81CF2B75B0098C951 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		F477D1571CEAF93C00D52AFD /* ChatListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListTableViewController.swift; sourceTree = "<group>"; };
+		F477D15B1CEB4D6100D52AFD /* YouChatCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouChatCellTableViewCell.swift; sourceTree = "<group>"; };
+		F477D15D1CECD1F400D52AFD /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F4BC7E291CFF51930034D920 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		F4BC7E2B1D0CF26F0034D920 /* AddFriendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendController.swift; sourceTree = "<group>"; };
+		F4EEA5CA1D11646200DD2A58 /* AddUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserCell.swift; sourceTree = "<group>"; };
+		FA70570390C244C662510966 /* Pods-Trumpet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trumpet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trumpet/Pods-Trumpet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F412317C1CDED24A0096B73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124C2AC94267D5AA432DB5EF /* Pods_Trumpet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41231901CDED24A0096B73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF16DAB58C9343551A7ADD3 /* Pods_TrumpetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F412319B1CDED24A0096B73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E684733B3C732C07AB1DE70 /* Pods_TrumpetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A10BFD7D77B310C582E9040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC2E9A78E724F4C65510CBB6 /* Pods_Trumpet.framework */,
+				DBAB8FA266F5A0DBFFB6101E /* Pods_TrumpetTests.framework */,
+				633E7A8F545E885D2722CBE4 /* Pods_TrumpetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		909479CE367FF63AFDD42D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA70570390C244C662510966 /* Pods-Trumpet.debug.xcconfig */,
+				BAD7A06CCEC87FA388054C80 /* Pods-Trumpet.release.xcconfig */,
+				4D108264288755BC0A371AFF /* Pods-TrumpetTests.debug.xcconfig */,
+				D6E5398EB387FDD040FB11B4 /* Pods-TrumpetTests.release.xcconfig */,
+				D0112B29FC957EC8FDB5A7B0 /* Pods-TrumpetUITests.debug.xcconfig */,
+				E1824FADA68C3ACE58A0820A /* Pods-TrumpetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F41231761CDED24A0096B73A = {
+			isa = PBXGroup;
+			children = (
+				F41231811CDED24A0096B73A /* Trumpet */,
+				F41231961CDED24A0096B73A /* TrumpetTests */,
+				F41231A11CDED24A0096B73A /* TrumpetUITests */,
+				F41231801CDED24A0096B73A /* Products */,
+				909479CE367FF63AFDD42D1A /* Pods */,
+				3A10BFD7D77B310C582E9040 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F41231801CDED24A0096B73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F412317F1CDED24A0096B73A /* Trumpet.app */,
+				F41231931CDED24A0096B73A /* TrumpetTests.xctest */,
+				F412319E1CDED24A0096B73A /* TrumpetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41231811CDED24A0096B73A /* Trumpet */ = {
+			isa = PBXGroup;
+			children = (
+				F41231821CDED24A0096B73A /* AppDelegate.swift */,
+				F4BC7E291CFF51930034D920 /* SignUpController.swift */,
+				F41231841CDED24A0096B73A /* ViewController.swift */,
+				F477D1571CEAF93C00D52AFD /* ChatListTableViewController.swift */,
+				F477D15B1CEB4D6100D52AFD /* YouChatCellTableViewCell.swift */,
+				F4BC7E2B1D0CF26F0034D920 /* AddFriendController.swift */,
+				F477D15D1CECD1F400D52AFD /* ChatViewController.swift */,
+				F45436D81CF2B75B0098C951 /* SocketIOManager.swift */,
+				F4EEA5CA1D11646200DD2A58 /* AddUserCell.swift */,
+				F43B0E9F1CE1CB40006BB4DC /* Friend.swift */,
+				F41231861CDED24A0096B73A /* Main.storyboard */,
+				F41231891CDED24A0096B73A /* Assets.xcassets */,
+				F412318B1CDED24A0096B73A /* LaunchScreen.storyboard */,
+				F412318E1CDED24A0096B73A /* Info.plist */,
+			);
+			path = Trumpet;
+			sourceTree = "<group>";
+		};
+		F41231961CDED24A0096B73A /* TrumpetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41231971CDED24A0096B73A /* TrumpetTests.swift */,
+				F41231991CDED24A0096B73A /* Info.plist */,
+			);
+			path = TrumpetTests;
+			sourceTree = "<group>";
+		};
+		F41231A11CDED24A0096B73A /* TrumpetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F41231A21CDED24A0096B73A /* TrumpetUITests.swift */,
+				F41231A41CDED24A0096B73A /* Info.plist */,
+			);
+			path = TrumpetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F412317E1CDED24A0096B73A /* Trumpet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41231A71CDED24A0096B73A /* Build configuration list for PBXNativeTarget "Trumpet" */;
+			buildPhases = (
+				B9FD97383547E7D1D7D65B91 /* 📦 Check Pods Manifest.lock */,
+				F412317B1CDED24A0096B73A /* Sources */,
+				F412317C1CDED24A0096B73A /* Frameworks */,
+				F412317D1CDED24A0096B73A /* Resources */,
+				9BD5D1C14CA6901D944C31EC /* 📦 Embed Pods Frameworks */,
+				F641F050994B4F81396A26FC /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trumpet;
+			productName = Trumpet;
+			productReference = F412317F1CDED24A0096B73A /* Trumpet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F41231921CDED24A0096B73A /* TrumpetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41231AA1CDED24A0096B73A /* Build configuration list for PBXNativeTarget "TrumpetTests" */;
+			buildPhases = (
+				C13BA0E93FC49C353B45D8A8 /* 📦 Check Pods Manifest.lock */,
+				F412318F1CDED24A0096B73A /* Sources */,
+				F41231901CDED24A0096B73A /* Frameworks */,
+				F41231911CDED24A0096B73A /* Resources */,
+				3F459C84F5F85C334F2445BB /* 📦 Embed Pods Frameworks */,
+				12C59CEB310C8291591259AE /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41231951CDED24A0096B73A /* PBXTargetDependency */,
+			);
+			name = TrumpetTests;
+			productName = TrumpetTests;
+			productReference = F41231931CDED24A0096B73A /* TrumpetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F412319D1CDED24A0096B73A /* TrumpetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41231AD1CDED24A0096B73A /* Build configuration list for PBXNativeTarget "TrumpetUITests" */;
+			buildPhases = (
+				C0183EDD040B212E9FA4C060 /* 📦 Check Pods Manifest.lock */,
+				F412319A1CDED24A0096B73A /* Sources */,
+				F412319B1CDED24A0096B73A /* Frameworks */,
+				F412319C1CDED24A0096B73A /* Resources */,
+				13725B1E81E25C9687948064 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41231A01CDED24A0096B73A /* PBXTargetDependency */,
+			);
+			name = TrumpetUITests;
+			productName = TrumpetUITests;
+			productReference = F412319E1CDED24A0096B73A /* TrumpetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41231771CDED24A0096B73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Halac Technologies";
+				TargetAttributes = {
+					F412317E1CDED24A0096B73A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HMVLA3A8BV;
+					};
+					F41231921CDED24A0096B73A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F412317E1CDED24A0096B73A;
+					};
+					F412319D1CDED24A0096B73A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F412317E1CDED24A0096B73A;
+					};
+				};
+			};
+			buildConfigurationList = F412317A1CDED24A0096B73A /* Build configuration list for PBXProject "Trumpet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F41231761CDED24A0096B73A;
+			productRefGroup = F41231801CDED24A0096B73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F412317E1CDED24A0096B73A /* Trumpet */,
+				F41231921CDED24A0096B73A /* TrumpetTests */,
+				F412319D1CDED24A0096B73A /* TrumpetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F412317D1CDED24A0096B73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F412318D1CDED24A0096B73A /* LaunchScreen.storyboard in Resources */,
+				F412318A1CDED24A0096B73A /* Assets.xcassets in Resources */,
+				F41231881CDED24A0096B73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41231911CDED24A0096B73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F412319C1CDED24A0096B73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C59CEB310C8291591259AE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetTests/Pods-TrumpetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13725B1E81E25C9687948064 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetUITests/Pods-TrumpetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F459C84F5F85C334F2445BB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrumpetTests/Pods-TrumpetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD5D1C14CA6901D944C31EC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumpet/Pods-Trumpet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FD97383547E7D1D7D65B91 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0183EDD040B212E9FA4C060 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C13BA0E93FC49C353B45D8A8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F641F050994B4F81396A26FC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Trumpet/Pods-Trumpet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F412317B1CDED24A0096B73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43B0EA01CE1CB40006BB4DC /* Friend.swift in Sources */,
+				F477D1581CEAF93C00D52AFD /* ChatListTableViewController.swift in Sources */,
+				F41231851CDED24A0096B73A /* ViewController.swift in Sources */,
+				F4BC7E2A1CFF51930034D920 /* SignUpController.swift in Sources */,
+				F4BC7E2C1D0CF26F0034D920 /* AddFriendController.swift in Sources */,
+				F45436D91CF2B75B0098C951 /* SocketIOManager.swift in Sources */,
+				F477D15E1CECD1F400D52AFD /* ChatViewController.swift in Sources */,
+				F41231831CDED24A0096B73A /* AppDelegate.swift in Sources */,
+				F4EEA5CB1D11646200DD2A58 /* AddUserCell.swift in Sources */,
+				F477D15C1CEB4D6100D52AFD /* YouChatCellTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F412318F1CDED24A0096B73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41231981CDED24A0096B73A /* TrumpetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F412319A1CDED24A0096B73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41231A31CDED24A0096B73A /* TrumpetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41231951CDED24A0096B73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F412317E1CDED24A0096B73A /* Trumpet */;
+			targetProxy = F41231941CDED24A0096B73A /* PBXContainerItemProxy */;
+		};
+		F41231A01CDED24A0096B73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F412317E1CDED24A0096B73A /* Trumpet */;
+			targetProxy = F412319F1CDED24A0096B73A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F41231861CDED24A0096B73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41231871CDED24A0096B73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F412318B1CDED24A0096B73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F412318C1CDED24A0096B73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41231A51CDED24A0096B73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41231A61CDED24A0096B73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F41231A81CDED24A0096B73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA70570390C244C662510966 /* Pods-Trumpet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Trumpet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.Trumpet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F41231A91CDED24A0096B73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD7A06CCEC87FA388054C80 /* Pods-Trumpet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Trumpet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.Trumpet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F41231AB1CDED24A0096B73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D108264288755BC0A371AFF /* Pods-TrumpetTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumpetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.TrumpetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumpet.app/Trumpet";
+			};
+			name = Debug;
+		};
+		F41231AC1CDED24A0096B73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E5398EB387FDD040FB11B4 /* Pods-TrumpetTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumpetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.TrumpetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trumpet.app/Trumpet";
+			};
+			name = Release;
+		};
+		F41231AE1CDED24A0096B73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0112B29FC957EC8FDB5A7B0 /* Pods-TrumpetUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TrumpetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.TrumpetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trumpet;
+			};
+			name = Debug;
+		};
+		F41231AF1CDED24A0096B73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1824FADA68C3ACE58A0820A /* Pods-TrumpetUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TrumpetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.halactech.TrumpetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trumpet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F412317A1CDED24A0096B73A /* Build configuration list for PBXProject "Trumpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41231A51CDED24A0096B73A /* Debug */,
+				F41231A61CDED24A0096B73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41231A71CDED24A0096B73A /* Build configuration list for PBXNativeTarget "Trumpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41231A81CDED24A0096B73A /* Debug */,
+				F41231A91CDED24A0096B73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41231AA1CDED24A0096B73A /* Build configuration list for PBXNativeTarget "TrumpetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41231AB1CDED24A0096B73A /* Debug */,
+				F41231AC1CDED24A0096B73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41231AD1CDED24A0096B73A /* Build configuration list for PBXNativeTarget "TrumpetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41231AE1CDED24A0096B73A /* Debug */,
+				F41231AF1CDED24A0096B73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41231771CDED24A0096B73A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TrumpetUITests {
+  umbrella header "Pods-TrumpetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
