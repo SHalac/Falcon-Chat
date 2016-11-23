@@ -53,8 +53,6 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         let tapGesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.tappedOutside))
         self.view.addGestureRecognizer(tapGesture)
-        //UserName.text="TheLionOfChampaign"
-        //UserPassword.text="gogo8o8o"
     }
     func tappedOutside(){
         self.UserName.endEditing(true)
